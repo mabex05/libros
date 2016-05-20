@@ -11,14 +11,13 @@
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES"
-            hideIssues = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAE1E4141CA484F70085CAC4"
-               BuildableName = "MasFeliz.app"
-               BlueprintName = "MasFeliz"
-               ReferencedContainer = "container:MasFeliz.xcodeproj">
+               BlueprintIdentifier = "BA8A20EF1CDD3EE40005E1E4"
+               BuildableName = "BuscadorLibros.app"
+               BlueprintName = "BuscadorLibros"
+               ReferencedContainer = "container:BuscadorLibros.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAE1E4281CA484F70085CAC4"
-               BuildableName = "MasFelizTests.xctest"
-               BlueprintName = "MasFelizTests"
-               ReferencedContainer = "container:MasFeliz.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAE1E4331CA484F70085CAC4"
-               BuildableName = "MasFelizUITests.xctest"
-               BlueprintName = "MasFelizUITests"
-               ReferencedContainer = "container:MasFeliz.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAE1E4141CA484F70085CAC4"
-            BuildableName = "MasFeliz.app"
-            BlueprintName = "MasFeliz"
-            ReferencedContainer = "container:MasFeliz.xcodeproj">
+            BlueprintIdentifier = "BA8A20EF1CDD3EE40005E1E4"
+            BuildableName = "BuscadorLibros.app"
+            BlueprintName = "BuscadorLibros"
+            ReferencedContainer = "container:BuscadorLibros.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAE1E4141CA484F70085CAC4"
-            BuildableName = "MasFeliz.app"
-            BlueprintName = "MasFeliz"
-            ReferencedContainer = "container:MasFeliz.xcodeproj">
+            BlueprintIdentifier = "BA8A20EF1CDD3EE40005E1E4"
+            BuildableName = "BuscadorLibros.app"
+            BlueprintName = "BuscadorLibros"
+            ReferencedContainer = "container:BuscadorLibros.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAE1E4141CA484F70085CAC4"
-            BuildableName = "MasFeliz.app"
-            BlueprintName = "MasFeliz"
-            ReferencedContainer = "container:MasFeliz.xcodeproj">
+            BlueprintIdentifier = "BA8A20EF1CDD3EE40005E1E4"
+            BuildableName = "BuscadorLibros.app"
+            BlueprintName = "BuscadorLibros"
+            ReferencedContainer = "container:BuscadorLibros.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

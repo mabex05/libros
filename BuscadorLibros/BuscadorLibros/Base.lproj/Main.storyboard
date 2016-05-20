@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BuscadorLibros" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yng-FW-cUg">
+                                <rect key="frame" x="60" y="162" width="220" height="356"/>
+                                <color key="backgroundColor" red="0.77291415045233802" green="0.91943108974358978" blue="0.90832347862958029" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="bFl-nR-M1Y">
+                                <rect key="frame" x="54" y="93" width="226" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BDg-ds-7Ik"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese el ISBN del libro a consultar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTO-HS-kmG">
+                                <rect key="frame" x="20" y="20" width="270" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Uv0-vk-SCQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BTO-HS-kmG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-5" id="1Zg-yX-Vf1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yng-FW-cUg" secondAttribute="bottom" constant="50" id="Cl7-a6-t8V"/>
+                            <constraint firstItem="yng-FW-cUg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="44" id="GOq-M2-2H6"/>
+                            <constraint firstItem="bFl-nR-M1Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="Xt8-vE-ZNp"/>
+                            <constraint firstItem="yng-FW-cUg" firstAttribute="top" secondItem="bFl-nR-M1Y" secondAttribute="bottom" constant="39" id="eBk-hE-iSH"/>
+                            <constraint firstItem="BTO-HS-kmG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="edE-oy-pdD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bFl-nR-M1Y" secondAttribute="trailing" constant="24" id="htP-eL-MXr"/>
+                            <constraint firstItem="BTO-HS-kmG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="mgY-Xl-Oab"/>
+                            <constraint firstItem="bFl-nR-M1Y" firstAttribute="top" secondItem="BTO-HS-kmG" secondAttribute="bottom" constant="19" id="oNx-HO-69e"/>
+                            <constraint firstItem="bFl-nR-M1Y" firstAttribute="trailing" secondItem="yng-FW-cUg" secondAttribute="trailing" id="xFC-be-TIn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="serialISBN" destination="bFl-nR-M1Y" id="Cvs-7T-Ghb"/>
+                        <outlet property="visor" destination="yng-FW-cUg" id="KAB-nX-mxM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="284"/>
+        </scene>
+    </scenes>
+</document>

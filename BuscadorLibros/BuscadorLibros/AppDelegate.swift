@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MasFeliz
+//  BuscadorLibros
 //
-//  Created by Eusebio Millan on 24/03/16.
+//  Created by Eusebio Millan on 06/05/16.
 //  Copyright © 2016 Eusebio Millan. All rights reserved.
 //
 

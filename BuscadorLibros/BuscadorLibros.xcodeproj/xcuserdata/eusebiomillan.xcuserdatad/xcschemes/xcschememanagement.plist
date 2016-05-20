@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MasFeliz.xcscheme</key>
+		<key>BuscadorLibros.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BAE1E4141CA484F70085CAC4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BAE1E4281CA484F70085CAC4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BAE1E4331CA484F70085CAC4</key>
+		<key>BA8A20EF1CDD3EE40005E1E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
